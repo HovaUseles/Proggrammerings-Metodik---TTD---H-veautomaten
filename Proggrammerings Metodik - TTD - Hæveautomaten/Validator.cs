@@ -17,6 +17,13 @@ namespace Proggrammerings_Metodik___TTD___Hæveautomaten
 
         }
 
+        /// <summary>
+        /// Validates PIN code.
+        /// </summary>
+        /// <param name="pin"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException"></exception>
+        /// <exception cref="ArgumentException"></exception>
         public bool ValidatePin(string pin)
         {
             if (pin == String.Empty)
@@ -38,6 +45,12 @@ namespace Proggrammerings_Metodik___TTD___Hæveautomaten
 
         }
 
+        /// <summary>
+        /// Validates the cardnumber.
+        /// </summary>
+        /// <param name="cardNumber"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
         public bool ValidateCard(string cardNumber)
         {
             if (!IsDigitsOnly(cardNumber))

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proggrammerings_Metodik___TTD___Hæveautomaten
 {
-    internal class Card
+    public abstract class Card
     {
         public string CardNumber { get; private set; }
 

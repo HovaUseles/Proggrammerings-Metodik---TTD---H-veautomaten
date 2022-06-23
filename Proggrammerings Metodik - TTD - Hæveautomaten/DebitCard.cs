@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proggrammerings_Metodik___TTD___Hæveautomaten
 {
-    internal class DebitCard : Card
+    public class DebitCard : Card
     {
         public float MaxWithdraw { get; private set; }
 
